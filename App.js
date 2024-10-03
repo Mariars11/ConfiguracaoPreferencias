@@ -76,7 +76,7 @@ function App() {
           { isEscuro ? <Text style={styles(fontValue).h1Escuro}>Ativado</Text> :  <Text style={styles(fontValue).h1Claro}>Desativado</Text>}
         </View>
         <View>
-          <Button title='Reiniciar' color='blue' onPress={()=> this.resetTema()}/>
+          <Button title='Resetar Preferencias' color='blue' onPress={()=> this.resetTema()}/>
       </View>
       </View>
     );
@@ -110,7 +110,7 @@ function App() {
           { isEscuro ? <Text style={styles(fontValue).h1Escuro}>Ativado</Text> :  <Text style={styles(fontValue).h1Claro}>Desativado</Text>}
         </View>
         <View>
-          <Button title='Reiniciar' color='blue' onPress={()=> this.resetTema()}/>
+          <Button title='Resetar Preferencias' color='blue' onPress={()=> this.resetTema()}/>
         </View>
       </View>
     );
